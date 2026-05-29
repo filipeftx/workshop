@@ -1,10 +1,10 @@
 import "./globals.css";
 import type { Metadata } from "next";
-import { meta } from "../content";
 
 export const metadata: Metadata = {
-  title: meta.title,
-  description: meta.description,
+  title: "Futures Scanner — Signal detection for foresight work",
+  description:
+    "Scan recent developments on any topic and reframe them as signals of change across three futures: preferable, probable, and dystopian.",
 };
 
 export default function RootLayout({
